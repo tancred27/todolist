@@ -1,0 +1,18 @@
+Setting up the db (with phpmyadmin):
+Create a user "root" with no password
+Create a database called todolist and import the sql file
+
+To install the required node modules and to start the app on localhost, run the following commands in cmd:
+1) npm i
+2) cd client
+3) npm i
+4) cd..
+5) npm run dev
+
+Test accounts:
+email - viswa.es27@gmail.com
+password - shigeo
+
+Either Login with the above account or Register a new account (option available on navbar)
+After Logging in, a form for creating an item to be added to the to-do list is displayed alongside
+the list. The items can be edited or completed(deleted).
