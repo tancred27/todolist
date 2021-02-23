@@ -64,7 +64,7 @@ const Register = (props) => {
                     <div className="panels right-panel">
                         <div className="content">
                             <h3>Already a member?</h3>
-                            <p>FSAGRDSHFFA skrrrrrrrah SE GWEG wg sDDFG DGH FGHA SFN gf ndfh adgsfn sadgsfhn gadbfdgsnfhdf n</p>
+                            <p>Login to access your to-do list and finish your chores!</p>
                             <button className="login-button transparent" onClick={toLogin}>Login</button>
                         </div>
                         <img src={signin} className="login-image" alt="login" />

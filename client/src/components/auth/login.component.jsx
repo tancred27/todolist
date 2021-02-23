@@ -57,7 +57,7 @@ const Login = (props) => {
                 <div className="panels left-panel">
                     <div className="content">
                         <h3>New Here ?</h3>
-                        <p>FSAGRDSHFFA skrrrrrrrah SE GWEG wg sDDFG DGH FGHA SFN gf ndfh adgsfn sadgsfhn gadbfdgsnfhdf n</p>
+                        <p>Register an account so you can maintain a to-do list of all your chores so you don't forget anything!</p>
                         <button className="login-button transparent" onClick={toRegister} >Register</button>
                     </div>
                     <img src={signin} className="login-image" alt="login" />
