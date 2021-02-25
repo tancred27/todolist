@@ -34,22 +34,32 @@ const Todo = (props) => {
     if (list === null) {
         return <h1>Loading</h1>
     }
-    
+
     else if(list.length === 0){
         return (
-            <MDBContainer fluid>
-            <MDBRow style={{ marginTop: "20px", paddingLeft: "100px" }}>
-                <div className="col-xs-12 col-sm-10 col-md-6 col-lg-4">
+            <div className="todo-container">
+            <MDBRow style={{ display: "flex", justifyContent: "space-between", minHeight: "730px" }}>  
+                <div className="col-xs-12 col-sm-10 col-md-6 col-lg-4" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div className="options">
+                        <h3>Done ?</h3>
+                        <button className="login-button transparent" onClick={onLogout}>Logout</button>
+                    </div>
                     <TodoForm />
+                    <div className="image-container">
+                        <img src={shit} alt="gay" className="loser" />
+                    </div>
+                </div>
+                <div className="col-xs-12 col-sm-10 col-md-6 col-lg-6">
+                    <h2>Seems empty here, go ahead and add an item to your to-do list to get started!</h2>
                 </div>
             </MDBRow>
-        </MDBContainer>
+        </div>
         )
     }
 
     return (
         <div className="todo-container">
-            <MDBRow style={{ display: "flex", justifyContent: "space-between" }}>  
+            <MDBRow style={{ display: "flex", justifyContent: "space-between", minHeight: "730px" }}>  
                 <div className="col-xs-12 col-sm-10 col-md-6 col-lg-4" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div className="options">
                         <h3>Done ?</h3>

@@ -89,7 +89,7 @@ const TodoItem = ({ item }) => {
             <BackSide style={{ backgroundColor: "#efefef" }}> 
                 <MDBCard>
                     <MDBCardBody>
-                        <h5>Edit values for <span className="text text-secondary">{name}</span></h5> <hr/>
+                        <h6>Edit values for <span className="text text-secondary">{name}</span></h6> <hr/>
                         <MDBCardText className="text-grey">
                             {modalText}
                         </MDBCardText>
