@@ -59,7 +59,7 @@ const Register = (props) => {
                     <button type="submit" className="login-button">Register</button>
                 </form>
                 <div className="panels-container">
-                    <div className="panels left-panel">
+                    <div className="panels left-panel" style={{ "zIndex": -1 }}>
                     </div>
                     <div className="panels right-panel">
                         <div className="content">

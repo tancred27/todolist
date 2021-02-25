@@ -36,7 +36,6 @@ router.get('/:id', async (req, res) => {
     res.send(r);
 });
 
-
 /**
  * @route          /todo
  * @description    add an item to the list of a user
